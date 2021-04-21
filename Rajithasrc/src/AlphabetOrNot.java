@@ -1,9 +1,9 @@
-package FirstProject.src;
+
 
 public class AlphabetOrNot {
     public static void main(String[] args){
         
-        char c = '*';
+        char c = '$';
 
         if(c >= 'a' && c <= 'z')
             System.out.println("Given is lower case alphabet");
