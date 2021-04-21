@@ -8,7 +8,6 @@ public class CalculateInterest {
     }
 
     public  static double calculateInterest(double amount, double interestRate){
-        //System.out.println((interestRate/100));
         return(amount *(interestRate/100));
     }
 }
