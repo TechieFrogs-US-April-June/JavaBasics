@@ -3,7 +3,11 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
+<<<<<<< HEAD
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+=======
       <sourceFolder url="file://$MODULE_DIR$/src/AssignmentsUntilConditional" isTestSource="false" />
+>>>>>>> b2ed0537f4cb92334457726bcaa57da0c2045671
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

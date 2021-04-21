@@ -1,4 +1,4 @@
-package FirstProject.src;
+package src;
 
 public class SumOfNaturalNum {public static void main(String[] args){
     int n=10;
