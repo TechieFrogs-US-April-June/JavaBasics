@@ -1,4 +1,4 @@
-package FirstProject.src;
+package src;
 
 public class Factorial {
     public static void main(String[] args){

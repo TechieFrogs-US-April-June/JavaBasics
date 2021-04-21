@@ -1,4 +1,4 @@
-package FirstProject.src;
+package src;
 
 public class AddingIntegers {
     public static void main(String[] args){

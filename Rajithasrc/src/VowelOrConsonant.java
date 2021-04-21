@@ -1,4 +1,4 @@
-package FirstProject.src;
+package src;
 
 public class VowelOrConsonant {
     public static void main(String[] args){
