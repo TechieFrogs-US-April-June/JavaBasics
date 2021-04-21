@@ -1,9 +1,13 @@
+<<<<<<< HEAD
 package src;
+=======
+
+>>>>>>> b2ed0537f4cb92334457726bcaa57da0c2045671
 
 public class AlphabetOrNot {
     public static void main(String[] args){
         
-        char c = '*';
+        char c = '$';
 
         if(c >= 'a' && c <= 'z')
             System.out.println("Given is lower case alphabet");
