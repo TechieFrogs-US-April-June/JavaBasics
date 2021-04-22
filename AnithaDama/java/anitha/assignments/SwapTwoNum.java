@@ -1,4 +1,4 @@
-package assignments;
+package java.anitha.assignments;
 
 public class SwapTwoNum {
 
