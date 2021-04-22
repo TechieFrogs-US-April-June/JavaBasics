@@ -13,5 +13,7 @@ public class EvenOrOdd {
       }
 
     }
+    //String output = (value%2==0)?"even number":"odd number";
+        //System.out.println(output);
     
 }
