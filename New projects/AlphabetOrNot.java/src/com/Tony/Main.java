@@ -1,8 +1,7 @@
 
-
-public class AlphabetOrNot {
+class AlphabetOrNot {
     public static void main(String[] args){
-        
+
         char c = '$';
 
         if(c >= 'a' && c <= 'z')
@@ -17,7 +16,6 @@ public class AlphabetOrNot {
             System.out.println("Given is Upper case alphabet");
         else
             System.out.println("Given is not an alphabet.");
-
        */
        /* switch(c){ //What is c is upper case alphabet
          have to write switch cases for upper case as well code becomes long
@@ -101,11 +99,7 @@ public class AlphabetOrNot {
             break;
             default:System.out.println("ch is Not an alphabet");
 }
-
-
-
-
         */
-        }
-    
+    }
+
 }

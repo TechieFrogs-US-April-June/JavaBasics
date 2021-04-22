@@ -1,0 +1,288 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+    
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch AddNumbers",
+            "request": "launch",
+            "mainClass": "AddNumbers",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch AddTwoInteger",
+            "request": "launch",
+            "mainClass": "AddTwoInteger",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlphabetPgm",
+            "request": "launch",
+            "mainClass": "AlphabetPgm",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlphabetPrinting",
+            "request": "launch",
+            "mainClass": "AlphabetPrinting",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlphabetVowelsOrConsonants",
+            "request": "launch",
+            "mainClass": "AlphabetVowelsOrConsonants",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch CheckWhetherACharacterIsAlphabetOrNot",
+            "request": "launch",
+            "mainClass": "CheckWhetherACharacterIsAlphabetOrNot",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch ComputeQuotientAndRemainder",
+            "request": "launch",
+            "mainClass": "ComputeQuotientAndRemainder",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch DataTypes",
+            "request": "launch",
+            "mainClass": "DataTypes",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch EvenOddPgm",
+            "request": "launch",
+            "mainClass": "EvenOddPgm",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch EvenOrOdd",
+            "request": "launch",
+            "mainClass": "EvenOrOdd",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch Example",
+            "request": "launch",
+            "mainClass": "Example",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch FactorialPgm",
+            "request": "launch",
+            "mainClass": "FactorialPgm",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindFactorialOfANumber",
+            "request": "launch",
+            "mainClass": "FindFactorialOfANumber",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch ForLoop",
+            "request": "launch",
+            "mainClass": "ForLoop",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch ForLoopPatterns",
+            "request": "launch",
+            "mainClass": "ForLoopPatterns",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch ForLoopPgm",
+            "request": "launch",
+            "mainClass": "ForLoopPgm",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch IfExample",
+            "request": "launch",
+            "mainClass": "IfExample",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch JavaTraining",
+            "request": "launch",
+            "mainClass": "JavaTraining",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch JavaVariables",
+            "request": "launch",
+            "mainClass": "JavaVariables",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch LargestAmongThreeNumbers",
+            "request": "launch",
+            "mainClass": "LargestAmongThreeNumbers",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch LargestNumber",
+            "request": "launch",
+            "mainClass": "LargestNumber",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch MultiplicationOfANumber",
+            "request": "launch",
+            "mainClass": "MultiplicationOfANumber",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch MultiplicationTable",
+            "request": "launch",
+            "mainClass": "MultiplicationTable",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch Operators",
+            "request": "launch",
+            "mainClass": "Operators",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrimeNumber",
+            "request": "launch",
+            "mainClass": "PrimeNumber",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrimeNumbers",
+            "request": "launch",
+            "mainClass": "PrimeNumbers",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuotientRemainderPgm",
+            "request": "launch",
+            "mainClass": "QuotientRemainderPgm",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch SampleTestPgm",
+            "request": "launch",
+            "mainClass": "SampleTestPgm",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch ScannerExample",
+            "request": "launch",
+            "mainClass": "ScannerExample",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch ScannerPgm",
+            "request": "launch",
+            "mainClass": "ScannerPgm",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumOfNaturalNumbers",
+            "request": "launch",
+            "mainClass": "SumOfNaturalNumbers",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumOfNumber",
+            "request": "launch",
+            "mainClass": "SumOfNumber",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch SwapNumbers",
+            "request": "launch",
+            "mainClass": "SwapNumbers",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch SwapTwoNumber",
+            "request": "launch",
+            "mainClass": "SwapTwoNumber",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch SwitchCase",
+            "request": "launch",
+            "mainClass": "SwitchCase",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch VowelConsonant",
+            "request": "launch",
+            "mainClass": "VowelConsonant",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch variableexample",
+            "request": "launch",
+            "mainClass": "variableexample",
+            "projectName": "JavaBasics_9d668620"
+        }
+    ]
+}
