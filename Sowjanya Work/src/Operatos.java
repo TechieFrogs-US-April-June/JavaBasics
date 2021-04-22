@@ -105,7 +105,7 @@ public class Operatos {
         x |= 3;// x = x | 3
         System.out.println(x);
 
-         */
+
         int a = 1;
         int b = 2;
         int c = 3;
@@ -114,6 +114,9 @@ public class Operatos {
         c <<= 1;
         a ^= c;
         System.out.println(a + " " + b + " " + c);
+
+         */
+
 
 
 
