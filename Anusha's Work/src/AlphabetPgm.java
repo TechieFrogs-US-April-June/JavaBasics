@@ -1,11 +1,9 @@
-
-
 public class AlphabetPgm {
     public static void main(String[] args) {
-        char ch='!';
-        if (ch >= 'A'  && ch <= 'Z') //ASCII code for A to Z ranges from 65 to 90
+        char ch='A';
+        if (ch >= 65  && ch <= 90) //ASCII code for A to Z ranges from 65 to 90
             System.out.println("UPPERCASE Alphabet");
-        else if (ch>='a' && ch <='z')//ASCII code for a to z ranges from 97 to 122
+        else if (ch>=97 && ch <=122)//ASCII code for a to z ranges from 97 to 122
             System.out.println("LOWERCASE Alphabet");
         else
             System.out.println("Not an Alphabet");
