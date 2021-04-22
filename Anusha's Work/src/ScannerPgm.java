@@ -4,11 +4,11 @@ public class ScannerPgm {
     public static void main(String[] args) {
         int a ,b,sum;
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter a value" );
+        System.out.print("Enter value1:" );
         a=sc.nextInt();
-        System.out.println("Enter b value" );
+        System.out.print("Enter value2:" );
         b=sc.nextInt();
         sum=a+b;
-        System.out.println("sum of a and b is " +sum );
+        System.out.println("Sum of " + a + " and " + b + " is " +sum );
     }
 }
