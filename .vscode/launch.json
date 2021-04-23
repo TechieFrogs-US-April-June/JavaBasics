@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ScannerValidation",
+            "request": "launch",
+            "mainClass": "ScannerValidation",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
             "name": "Launch ScannerMethod",
             "request": "launch",
             "mainClass": "ScannerMethod",
