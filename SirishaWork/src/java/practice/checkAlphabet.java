@@ -1,3 +1,5 @@
+package java.practice;
+
 public class checkAlphabet {
     public static void main(String[] args) {
         char c = 'q';

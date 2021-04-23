@@ -1,3 +1,5 @@
+package java.practice;
+
 public class LargestAmongThreeNumbers {
     public static void main(String[] args) {
          int a1 = 10, a2 = 23, a3 = 43;
