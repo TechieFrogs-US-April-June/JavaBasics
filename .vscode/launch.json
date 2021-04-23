@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ScannarSkip",
+            "request": "launch",
+            "mainClass": "ScannarSkip",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch ScannerCondition",
+            "request": "launch",
+            "mainClass": "ScannerCondition",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch ScannerVaditaeString",
+            "request": "launch",
+            "mainClass": "ScannerVaditaeString",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
             "name": "Launch ScannerValidation",
             "request": "launch",
             "mainClass": "ScannerValidation",
