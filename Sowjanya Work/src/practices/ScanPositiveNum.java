@@ -12,6 +12,7 @@ public class ScanPositiveNum {
             num = input.nextInt();
         }while ((num <= 0) || (num >= 1000));
         System.out.println("Valid positive int number below 1000");
+        input.close();
 
     }
 }
