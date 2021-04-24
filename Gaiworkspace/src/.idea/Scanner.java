@@ -1,9 +1,5 @@
-package assignments;
-
 import java.util.Scanner;
-
-public class ScsnnerDelimeter {
-
+public class Scanner {
     public static void main(String args[]) 
     {
         int input = 0;
@@ -19,8 +15,6 @@ public class ScsnnerDelimeter {
         }else {
             System.out.println("Please Enter Valid Integer");
         }
-        sc.close();
     }
+    
 }
-
-
