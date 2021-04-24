@@ -1,13 +1,18 @@
 import java.util.Scanner;
 public class MulTable {
-    public static void main(String[] args) {
+    static float a,x;
+        public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter the number for multiplication table ::  ");
-        int a = scan.nextInt();
+        if(scan.hasNextInt() || scan.hasNextFloat()){
+            a = scan.nextFloat();}
+        else {System.out.println("Please enter INTEGER value");System.exit(1);}
         System.out.println("Enter the multiplication table length ::  ");
-        int x= scan.nextInt();
+        if(scan.hasNextInt()){
+            x = scan.nextFloat();}
+        else {System.out.println("Please enter INTEGER value");System.exit(1);}
         scan.close();
-        int res = 0;
+        float res = 0;
         for(int i = 1; i <= x; i++)
         {
          res = a * i;
