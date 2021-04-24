@@ -19,7 +19,14 @@ public class SwapOfNumbers {
         a=a/b;*/
         System.out.println(a);
         System.out.println(b);
-
+/*Scanner sc=new Scanner(System.in);
+        System.out.println("Enter interger a");
+        int a= sc.nextInt();
+        System.out.println("a value is"+a);
+        System.out.println("Enter integer b");
+        int b=sc.nextInt();
+        System.out.println("b value is"+b);
+*/
     }
     
 }

@@ -23,6 +23,14 @@ public class Factorial {
         }
         System.out.println(fact);
          */
+        /*Scanner sc=new Scanner(System.in);
+        System.out.println("Enter integer n");
+        int n=sc.nextInt();
+        System.out.println("n value is"+n);
+        System.out.println("Enter integer f");
+        int f=sc.nextInt();
+        System.out.println("f value is"+f);
+        */
     }
     
 }
