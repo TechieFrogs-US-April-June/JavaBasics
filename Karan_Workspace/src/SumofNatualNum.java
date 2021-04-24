@@ -1,9 +1,12 @@
 import java.util.Scanner;
 public class SumofNatualNum {
+    static int a;
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter the number to find sum of all natural numbers till that num ::  ");
-        int a = scan.nextInt();
+        if(scan.hasNextInt()){
+            a = scan.nextInt();}
+        else {System.out.println("Please enter a NATURAL number");System.exit(1);}        
         scan.close();
         int b=1;
         int res=0;

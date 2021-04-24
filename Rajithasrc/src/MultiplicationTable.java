@@ -18,5 +18,12 @@ public class MultiplicationTable {
            System.out.println(n*i);
            i++;
         */
-    
+    /*Scanner sc=new Scanner(System.in);
+    System.out.println("Enter integer n");
+    int n=sc.nextInt();
+    System.out.println("n value is"+n);
+    System.out.println("Enter integer m");
+    int m=sc.nextInt();
+    System.out.println("m value is"+m);
+    */
 

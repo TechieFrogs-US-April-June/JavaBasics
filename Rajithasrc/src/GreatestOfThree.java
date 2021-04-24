@@ -12,6 +12,17 @@ public class GreatestOfThree {
             System.out.println("b is greatest number");
         else //(70>40 && 70>50)
             System.out.println("c is greatest number");
+            /*Scanner sc=new Scanner(System.in);
+            System.out.println("Enter integer a");
+            int a=sc.nextInt();
+            System.out.println("a value is"+a);
+            System.out.println("Enter integer b");
+            int b=sc.nextInt();
+            System.out.println("b value is"+b);
+            System.out.println("Enter integer c");
+            int c=sc.nextInt();
+            System.out.println("c value is"+c);
+            */
     }
 }
     
