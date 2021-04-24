@@ -8,7 +8,7 @@ public class ScannerMethods {
        if(sc.hasNext(("[a-z A-Z]*"))){
            str=sc.next();
            System.out.println("String entered: "+ str);
-
+            sc.close();
        }
 
 
