@@ -23,6 +23,14 @@ decrement way
        }
        System.out.print(sum);
      */
+    /*Scanner sc=new Scanner(System.in);
+    System.out.println("Enter integer n");
+    int n=sc.nextInt();
+    System.out.println("n value is"+n);
+    System.out.println("Enter integer sum");
+    int sum=sc.nextInt();
+    System.out.println("sum value is"+sum);
+    */
 }
     
 }
