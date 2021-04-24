@@ -21,6 +21,7 @@ public class ScannerWholeNumber {
             }
         }while (!(isNumber));
         System.out.println("Number is: " +num);
+        input.close();
 
     }
 }

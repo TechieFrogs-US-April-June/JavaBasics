@@ -4,21 +4,31 @@ public class ScannerMethod {
     public static void main(String[] args) {
         
         //basic scanner input/output
+    
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Name ");
-        String Name = sc.next();
+        String Name = sc.next();               //next() consider space as a next token 
+
+        System.out.println("Enter Name ");
+        String Name1 = sc.nextLine();        //nextLine it will print whole line
+
         System.out.println("Enter Number ");
         int a = sc.nextInt();
         byte b = sc.nextByte();
         short c = sc.nextShort();
         double d = sc.nextDouble();
         float e = sc.nextFloat();
+
         System.out.println("Enter True/False ");
         boolean num = sc.nextBoolean();
-        System.out.println("Enter Name ");
-        String Name1 = sc.next();
-        System.out.println("Enter Character ");
+     //   System.out.println("Enter Name ");
+       // String Name1 = sc.next();
+        
+       System.out.println("Enter Character ");
         char f = sc.next().charAt(0);
+
+        //delimiter
+        System.out.println(sc.delimiter());
         
         
 
