@@ -4,18 +4,23 @@ import java.util.Scanner;
 
 public class ScsnnerDelimeter {
 
-	public static void main(String[] args) 
-	{
-		String a = "Hello World";
-		Scanner sc = new Scanner(a);
-		sc.delimiter();//\\s*fish\\s*
-		
-		System.out.println(sc.nextInt());
-		//System.out.println(sc.nextInt());
-		//System.out.println(sc.next());
-		//System.out.println(sc.next());
-		
-		sc.close();
-	}
-
+    public static void main(String args[]) 
+    {
+        int input = 0;
+        System.out.println("Enter an Integer value ");
+        Scanner sc = new Scanner(System.in);
+        if(sc.hasNextInt()) {
+            input = sc.nextInt();
+            if(input>0)
+                System.out.println("You entered a positive integer "+input);
+            else {
+                System.out.println("You entered a negative integer "+input);
+            }
+        }else {
+            System.out.println("Please Enter Valid Integer");
+        }
+        sc.close();
+    }
 }
+
+

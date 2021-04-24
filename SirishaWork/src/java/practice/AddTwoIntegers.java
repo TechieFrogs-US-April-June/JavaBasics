@@ -1,3 +1,5 @@
+package java.practice;
+
 public class AddTwoIntegers {
         public static void main(String[] args) {
             int a = 20;
