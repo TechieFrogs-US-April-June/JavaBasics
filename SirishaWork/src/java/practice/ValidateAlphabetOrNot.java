@@ -1,3 +1,5 @@
+package SirishaWork.src.java.practice;
+
 import java.util.Scanner;
 
 public class ValidateAlphabetOrNot {
@@ -14,6 +16,8 @@ public class ValidateAlphabetOrNot {
         }
         else{
             System.out.println(ch + " is not an Alphabet");
+            scan.close();
         }
+
     }
 }

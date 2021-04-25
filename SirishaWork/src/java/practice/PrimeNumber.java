@@ -1,3 +1,5 @@
+package SirishaWork.src.java.practice;
+
 import java.util.Scanner;
 
 public class PrimeNumber {
@@ -8,7 +10,6 @@ public class PrimeNumber {
         System.out.println("Enter any number:");
         //capture the input in an integer
         int num=scan.nextInt();
-        scan.close();
         int i=2;
         while(i<= num/2)
         {
@@ -24,5 +25,6 @@ public class PrimeNumber {
             System.out.println(num + " is a Prime Number");
         else
             System.out.println(num + " is not a Prime Number");
+        scan.close();
     }
     }
