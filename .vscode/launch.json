@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Palindrome",
+            "request": "launch",
+            "mainClass": "Palindrome",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch InvertedHalfPyramid",
+            "request": "launch",
+            "mainClass": "InvertedHalfPyramid",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintHalfPyramid",
+            "request": "launch",
+            "mainClass": "PrintHalfPyramid",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
             "name": "Launch ScannarSkip",
             "request": "launch",
             "mainClass": "ScannarSkip",
