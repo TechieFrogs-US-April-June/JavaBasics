@@ -26,7 +26,7 @@ public class ValidationPgm4 {
                        System.out.println("Division of " + a + "," + b + " is:" + Division);
                        break;
                 default:System.out.println("Invalid Input");
-                        break;
+
             }
 
             System.out.println("Do you want to continue:(Y/N)");
