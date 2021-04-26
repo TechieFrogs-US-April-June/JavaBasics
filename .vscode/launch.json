@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ArmstrongNumber",
+            "request": "launch",
+            "mainClass": "ArmstrongNumber",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintFullPyramid",
+            "request": "launch",
+            "mainClass": "PrintFullPyramid",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch HalfPyramidUsingAlphabets",
+            "request": "launch",
+            "mainClass": "HalfPyramidUsingAlphabets",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch HalfPyramidUsingNumbers",
+            "request": "launch",
+            "mainClass": "HalfPyramidUsingNumbers",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
             "name": "Launch Palindrome",
             "request": "launch",
             "mainClass": "Palindrome",
