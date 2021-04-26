@@ -6,6 +6,90 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch task9",
+            "request": "launch",
+            "mainClass": "task9",
+            "projectName": "JavaBasics_d0f1dbc5"
+        },
+        {
+            "type": "java",
+            "name": "Launch task3",
+            "request": "launch",
+            "mainClass": "task3",
+            "projectName": "JavaBasics_d0f1dbc5"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "JavaBasics_d0f1dbc5"
+        },
+        {
+            "type": "java",
+            "name": "Launch task1",
+            "request": "launch",
+            "mainClass": "task1",
+            "projectName": "JavaBasics_d0f1dbc5"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld",
+            "projectName": "JavaBasics_d0f1dbc5"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArmstrongNumber",
+            "request": "launch",
+            "mainClass": "ArmstrongNumber",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintFullPyramid",
+            "request": "launch",
+            "mainClass": "PrintFullPyramid",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch HalfPyramidUsingAlphabets",
+            "request": "launch",
+            "mainClass": "HalfPyramidUsingAlphabets",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch HalfPyramidUsingNumbers",
+            "request": "launch",
+            "mainClass": "HalfPyramidUsingNumbers",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch Palindrome",
+            "request": "launch",
+            "mainClass": "Palindrome",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch InvertedHalfPyramid",
+            "request": "launch",
+            "mainClass": "InvertedHalfPyramid",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintHalfPyramid",
+            "request": "launch",
+            "mainClass": "PrintHalfPyramid",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
             "name": "Launch ScannarSkip",
             "request": "launch",
             "mainClass": "ScannarSkip",

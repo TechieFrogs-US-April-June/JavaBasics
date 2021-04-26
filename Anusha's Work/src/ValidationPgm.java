@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public class ValidationPgm {
     public static void main(String[] args) {
-        //oneInputValidationPgm();
+        //
+        // oneInputValidationPgm();
         twoInputValidationPgm();
     }
 

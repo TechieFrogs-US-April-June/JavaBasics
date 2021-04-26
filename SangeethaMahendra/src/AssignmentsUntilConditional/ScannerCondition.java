@@ -2,23 +2,31 @@ import java.util.Scanner;
 
 public class ScannerCondition {
     
-    public static void main(String[] args) {
+    public static void main(String[] args)
+     {
         System.out.println("Enter a Number");
         Scanner sc = new Scanner(System.in);
-        if (sc.hasNextInt()) {
-        int Number = sc.nextInt();
-        if (Number % 2 == 0)
+        int i = 0;
+      
+        if (sc.hasNextInt())
         {
+            while(i<=5)
+           {
+             int Number = sc.nextInt();
+             if (Number % 2 == 0)
+             {
             System.out.println("Even Number");
-        }
-        else
-            {
+             }
+             else
+              {
                 System.out.println("Odd Number");
-            }
-        }
-        else {
-            System.out.println("Enter a valid Number");
-        }
-            sc.close();
+              }
+           } i++;
+         
+       }
+       
+       
+    
+        sc.close();
     }
 }
