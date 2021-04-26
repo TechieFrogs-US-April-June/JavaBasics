@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch task1",
+            "request": "launch",
+            "mainClass": "task1",
+            "projectName": "JavaBasics_d0f1dbc5"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld",
+            "projectName": "JavaBasics_d0f1dbc5"
+        },
+        {
+            "type": "java",
             "name": "Launch ArmstrongNumber",
             "request": "launch",
             "mainClass": "ArmstrongNumber",
