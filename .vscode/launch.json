@@ -6,6 +6,7 @@
     "configurations": [
         {
             "type": "java",
+<<<<<<< HEAD
             "name": "Launch InvertedHalfPyramidNumbers",
             "request": "launch",
             "mainClass": "InvertedHalfPyramidNumbers",
@@ -45,6 +46,19 @@
             "request": "launch",
             "mainClass": "ValidationProgram3",
             "projectName": "JavaBasics_dc1a8b15"
+=======
+            "name": "Launch task9",
+            "request": "launch",
+            "mainClass": "task9",
+            "projectName": "JavaBasics_d0f1dbc5"
+        },
+        {
+            "type": "java",
+            "name": "Launch task3",
+            "request": "launch",
+            "mainClass": "task3",
+            "projectName": "JavaBasics_d0f1dbc5"
+>>>>>>> cd78abd3dd3e1c9b0215f9deb28f384fdbf6662c
         },
         {
             "type": "java",
