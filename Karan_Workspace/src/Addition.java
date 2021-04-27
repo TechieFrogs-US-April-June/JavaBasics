@@ -1,34 +1,37 @@
 import java.util.Scanner;
 
 public class Addition {
-    static int a;
-    static boolean x=true;
-    public static void main(String[] args) {
-     while(x){ 
+     static int a;
 
-        System.out.println("enter the first number ::  ");
+     public static void main(String[] args) {
+          Scanner scan = new Scanner(System.in);
 
-        Scanner scan = new Scanner(System.in);
-       
-        if(scan.hasNextInt())
-        {
-             a = scan.nextInt();
-             break;
-        } 
-        System.out.println("Please enter INTEGER value");
+          while (true) {
+
+               System.out.println("enter the first number ::  ");
+
+               if (scan.hasNextInt()) {
+                    a = scan.nextInt();
+                    break;
+               } else {
+                    scan.next();
+               }
+               System.out.println("Please enter INTEGER value");
+          }
+
+          while (true) {
+
+               System.out.println("enter the second number ::  ");
+
+               if (scan.hasNextInt()) {
+                    a = a + scan.nextInt();
+                    break;
+               } else {
+                    scan.next();
+               }
+               System.out.println("Please enter INTEGER value");
+          }
+          scan.close();
+          System.out.println("result is ::  " + a);
      }
-
-     while(x){
-          
-     Scanner scan1 = new Scanner(System.in);
-     System.out.println("enter the second number ::  ");
-
-         if(scan1.hasNextInt()){
-              a = a + scan1.nextInt();
-              break;
-           }
-            System.out.println("Please enter INTEGER value");
-     }
-     System.out.println("result is ::  " + a);
-}
 }
