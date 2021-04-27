@@ -10,7 +10,8 @@ public class FindingLargest {
         System.out.println("Enter 1st num  :: ");
         if(scan.hasNextInt()){
             a = scan.nextInt();
-         break;}
+         break;
+      }
         System.out.println("Please enter INTEGER value");
       }
       
