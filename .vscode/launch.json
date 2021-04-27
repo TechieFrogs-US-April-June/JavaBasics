@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch InvertedHalfPyramidNumbers",
+            "request": "launch",
+            "mainClass": "InvertedHalfPyramidNumbers",
+            "projectName": "JavaBasics_dc1a8b15"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestObject2",
+            "request": "launch",
+            "mainClass": "TestObject2",
+            "projectName": "JavaBasics_dc1a8b15"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestObject1",
+            "request": "launch",
+            "mainClass": "TestObject1",
+            "projectName": "JavaBasics_dc1a8b15"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArmstrongExample",
+            "request": "launch",
+            "mainClass": "ArmstrongExample",
+            "projectName": "JavaBasics_dc1a8b15"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrimeNumberExample",
+            "request": "launch",
+            "mainClass": "PrimeNumberExample",
+            "projectName": "JavaBasics_dc1a8b15"
+        },
+        {
+            "type": "java",
+            "name": "Launch ValidationProgram3",
+            "request": "launch",
+            "mainClass": "ValidationProgram3",
+            "projectName": "JavaBasics_dc1a8b15"
+        },
+        {
+            "type": "java",
             "name": "Launch App",
             "request": "launch",
             "mainClass": "App",
