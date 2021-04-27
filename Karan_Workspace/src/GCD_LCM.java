@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class GCD {
+public class GCD_LCM {
     static int a,b,x,y,gcd_res,lcm_res;
 
     static void number1(){
