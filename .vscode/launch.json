@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ObjectsExample",
+            "request": "launch",
+            "mainClass": "ObjectsExample",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
+            "name": "Launch FloatingValidation",
+            "request": "launch",
+            "mainClass": "FloatingValidation",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
             "name": "Launch ArmstrongNumber",
             "request": "launch",
             "mainClass": "ArmstrongNumber",
