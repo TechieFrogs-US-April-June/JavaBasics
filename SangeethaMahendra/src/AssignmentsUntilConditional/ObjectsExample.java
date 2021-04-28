@@ -1,9 +1,10 @@
 public class ObjectsExample {
 
+    // EXAMPLE ; CAN CREATE N NUMBER OF OBJECT
     int a = 5; // initializing instance variable
     int b = 10;
     static int i; // static variable
-    void display()
+    void display()  // Method
     {
         System.out.println("Values of a and b "+ a + " "+ b);
     }
@@ -16,7 +17,7 @@ public class ObjectsExample {
         objEg.b = 20;
         objEg.display();
 
-        ObjectsExample objEg2 = new ObjectsExample();
+        ObjectsExample objEg2 = new ObjectsExample(); 
         objEg2.a =100;
         objEg2.b = 200;
         objEg2.display();
