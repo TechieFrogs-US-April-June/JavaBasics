@@ -1,4 +1,4 @@
-package java.practice;
+package SirishaWork.src.java.practice;
 
 public class VowelOrConsonant {
     public static void main(String[] args) {
