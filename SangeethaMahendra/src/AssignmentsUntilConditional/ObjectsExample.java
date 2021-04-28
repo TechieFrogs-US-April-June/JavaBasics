@@ -24,7 +24,7 @@ public class ObjectsExample {
 
         System.out.println(i); // No need to create object for static variable
 
-        System.out.println(objEg.i); //proper way of use it
+        System.out.println(ObjectsExample.i); //proper way of use it
 
     }
     

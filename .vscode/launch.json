@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FullPyramidUsingNumbers",
+            "request": "launch",
+            "mainClass": "FullPyramidUsingNumbers",
+            "projectName": "JavaBasics_9d668620"
+        },
+        {
+            "type": "java",
             "name": "Launch ObjectsExample",
             "request": "launch",
             "mainClass": "ObjectsExample",

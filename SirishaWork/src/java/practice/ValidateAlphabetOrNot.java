@@ -2,7 +2,8 @@ package SirishaWork.src.java.practice;
 
 import java.util.Scanner;
 
-public class ValidateAlphabetOrNot {
+public class ValidateAlphabetOrNot
+{
     public static void main(String[] args) {
         char ch;
         Scanner scan = new Scanner(System.in);
