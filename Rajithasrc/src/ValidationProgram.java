@@ -15,15 +15,16 @@ public class ValidationProgram {
 
                     if(!sc.hasNextInt()){
 
-                    System.out.println("These are not valid integers");
-                    sc.next();
+                    System.out.println("These are valid integers");
+                 sc.next();
                     sc.next();
                     }
                     
                                      
-                        a=sc.nextInt();
-                        b=sc.nextInt();
-                        
+                       a= sc.nextInt();
+                     b= sc.nextInt();
+                    
+                     
                     }while(a<=0 || b<=0);
                     
 

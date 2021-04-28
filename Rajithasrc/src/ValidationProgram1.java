@@ -23,8 +23,8 @@ public class ValidationProgram1 {
     
         System.out.println("Entered number is "+ y);
     
-        do{
         
+    
         if(y%2==0){
             System.out.println( y+ "is even number");
             
@@ -32,7 +32,7 @@ public class ValidationProgram1 {
         }else {
             System.out.println( y+ " is odd number");
         }
-        }while(sc.hasNextInt());
+        
         
              
     
