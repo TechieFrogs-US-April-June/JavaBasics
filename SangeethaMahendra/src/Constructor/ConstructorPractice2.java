@@ -1,3 +1,5 @@
+package src.Constructor;
+
 public class ConstructorPractice2 {
      
      // INVOKE CONSTRUCTOR

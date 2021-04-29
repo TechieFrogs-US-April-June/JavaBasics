@@ -1,3 +1,5 @@
+package src.Constructor;
+
 public class StudentConst {
     int id,age;
     float id1;
