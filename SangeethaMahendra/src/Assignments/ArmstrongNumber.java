@@ -1,10 +1,13 @@
 import java.util.Scanner;
 
+//A positive number is called armstrong number if it is equal to the sum of cubes of its digits 
+
 public class ArmstrongNumber {
     public static void main(String[] args) {
 
         // An Armstrong number of three digits is an integer such that the sum of the
         // cubes of its digits is equal to the number itself
+
         System.out.println("Enter a Number");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

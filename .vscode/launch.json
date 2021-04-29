@@ -7,6 +7,12 @@
         {
             "type": "java",
 <<<<<<< HEAD
+            "name": "Launch FullPyramidUsingNumbers",
+            "request": "launch",
+            "mainClass": "FullPyramidUsingNumbers",
+            "projectName": "JavaBasics_9d668620"
+=======
+<<<<<<< HEAD
             "name": "Launch InvertedHalfPyramidNumbers",
             "request": "launch",
             "mainClass": "InvertedHalfPyramidNumbers",
@@ -66,20 +72,21 @@
             "request": "launch",
             "mainClass": "App",
             "projectName": "JavaBasics_d0f1dbc5"
+>>>>>>> 01d9ba66512663513938f60fb4c40c8d3e687234
         },
         {
             "type": "java",
-            "name": "Launch task1",
+            "name": "Launch ObjectsExample",
             "request": "launch",
-            "mainClass": "task1",
-            "projectName": "JavaBasics_d0f1dbc5"
+            "mainClass": "ObjectsExample",
+            "projectName": "JavaBasics_9d668620"
         },
         {
             "type": "java",
-            "name": "Launch HelloWorld",
+            "name": "Launch FloatingValidation",
             "request": "launch",
-            "mainClass": "HelloWorld",
-            "projectName": "JavaBasics_d0f1dbc5"
+            "mainClass": "FloatingValidation",
+            "projectName": "JavaBasics_9d668620"
         },
         {
             "type": "java",

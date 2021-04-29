@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+
+// : A palindrome number is a number that is same after reverse. For example 545, 151
 public class Palindrome {
     public static void main(String[] args) {
         System.out.println("Enter the Number to be Reversed : ");
