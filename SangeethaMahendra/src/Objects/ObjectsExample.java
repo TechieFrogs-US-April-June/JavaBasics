@@ -1,3 +1,5 @@
+package src.Objects;
+
 public class ObjectsExample {
 
     // EXAMPLE ; CAN CREATE N NUMBER OF OBJECT

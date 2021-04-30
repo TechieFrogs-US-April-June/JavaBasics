@@ -1,3 +1,5 @@
+package src.Objects;
+
 public class Variables {
     
          static String TEXT = "The End";

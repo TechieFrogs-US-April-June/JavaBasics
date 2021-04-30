@@ -1,3 +1,5 @@
+package src.Assignments;
+
 public class PrintHalfPyramid {
     public static void main(String[] args) {
         

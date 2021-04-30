@@ -1,3 +1,5 @@
+package src.Scanner;
+
 import java.util.Scanner;
 
 public class Validation {

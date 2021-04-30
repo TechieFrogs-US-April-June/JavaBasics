@@ -1,3 +1,5 @@
+package src.Scanner;
+
 import java.util.Scanner;
 
 //To validate a string value, we can use regex to get string in a specific format. Here, the hasNext() takes a regex to validate a string that can contain only alphabets.

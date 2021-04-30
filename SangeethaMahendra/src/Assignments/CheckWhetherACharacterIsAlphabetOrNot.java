@@ -1,4 +1,4 @@
-
+package src.Assignments;
 
 public class CheckWhetherACharacterIsAlphabetOrNot {
     public static void main(String[] args) {

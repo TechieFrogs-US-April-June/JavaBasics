@@ -1,6 +1,8 @@
+package src.NestedClass;
+
 class StaticNestedClassPractice {
      static int i = 10;
-     private int x =15; 
+   //  private int x =15; 
   
      //Static Nested Class
      static class NestedClass
