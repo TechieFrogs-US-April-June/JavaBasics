@@ -1,8 +1,10 @@
 package assignment;
 
+import java.util.Scanner;
+
 public class GCDofTwoNumbers {
     public static void main(String[] args) {
-        // find GCD between n1 and n2
+       /* // find GCD between n1 and n2
         int n1 = 45, n2 = 95;
 
         // initially set to gcd
@@ -16,5 +18,41 @@ public class GCDofTwoNumbers {
         }
 
         System.out.println("GCD of " + n1 +" and " + n2 + " is " + gcd);
+
+        */
+        Scanner sc = new Scanner(System.in);
+        while(true) {
+            int first = readNum("first", sc);
+            sc.nextLine();
+            int second = readNum("second", sc);
+
+            int gcd = 1;
+            for (int i = 1; i <= first && i <= second; i++) {
+                if (first % i == 0 && second % i == 0) {
+                    gcd = i;
+                }
+            }
+            System.out.println("GCD is: " + gcd);
+            System.out.print("Please enter Y to continue or any key to exit: ");
+            String nxt = sc.next().toUpperCase();
+            if(!nxt.equals("Y")) {
+                break;
+            }
+            sc.nextLine();
+        }
+        sc.close();
+    }
+
+    public static int readNum(String count, Scanner sc) {
+        while(true) {
+            System.out.print("Enter "+count+" number: ");
+            if (sc.hasNextInt()) {
+                int num = sc.nextInt();
+                return num;
+            } else {
+                System.out.println("Invalid " + count + "number. Please enter the number again.");
+            }
+            sc.nextLine();
+        }
     }
 }
