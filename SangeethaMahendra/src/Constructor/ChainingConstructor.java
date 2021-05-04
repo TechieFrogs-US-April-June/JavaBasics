@@ -2,9 +2,9 @@ package src.Constructor;
 
 public class ChainingConstructor {
 
-    String empName;
-    int empSalary;
-    String address;
+    String empName= " Mahi";
+    int empSalary = 20000;
+    String address = "NC";
 
     void display() {
         System.out.println("Employee Name: " + empName);
@@ -28,10 +28,17 @@ public class ChainingConstructor {
         this(name,sal, "Texas");
     }
 
-    public ChainingConstructor(String name, int sal, String addr) {
-             this.empName = name;
-             this.empSalary = sal;
-             this.address = addr;
+    public ChainingConstructor(String empName, int empSalary, String address) {
+
+        System.out.println("Employee Name in Constructor: " + empName);
+        System.out.println("Employee Salary: " + empSalary);
+        System.out.println("Employee Address: " + address);
+        System.out.println("Employee Name: " + this.empName);
+        System.out.println("Employee Salary: " + this.empSalary);
+        System.out.println("Employee Address: " + this.address);
+         //this.empName = empName;
+           // empSalary = empSalary;
+             //address = address;
     }
 
     public static void main(String[] args) {
