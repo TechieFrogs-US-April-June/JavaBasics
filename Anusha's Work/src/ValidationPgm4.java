@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class ValidationPgm4 {
     public static void main(String[] args) {
-        int a,b,c;
+        int a,b;
         System.out.println("Enter Value 1:");
         a=oneInputValidationPgm();
         System.out.println("Enter Value 2:");
