@@ -36,6 +36,9 @@ public class TestObject1 {
      tstObj1.display1();
      TestObject2 tstObj4=new TestObject2();
      tstObj4.display2();
+
+     ModifiersDemo mdobj1 = new ModifiersDemo();
+     mdobj1.displaay();
  }
     
 }
