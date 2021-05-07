@@ -43,9 +43,9 @@ public class StudentConst {
     //   }
 
 public static void main(String[] args) {
-    StudentConst s1 = new StudentConst(111,"Karan"); //output : id value is 111 Name Value is Karan [Executes i and n value]
+    //StudentConst s1 = new StudentConst(111,"Karan"); //output : id value is 111 Name Value is Karan [Executes i and n value]
    // StudentConst s2 = new StudentConst(222, "Aryan");
-   StudentConst s3 = new StudentConst(222, "Aryan",25); //output: id value is 222 Name Value is Aryan [Executes i and n value]
+  // StudentConst s3 = new StudentConst(222, "Aryan",25); //output: id value is 222 Name Value is Aryan [Executes i and n value]
   //  StudentConst s4 = new StudentConst(22.29f, "Aryan");
     StudentConst s5 = new StudentConst("Mayan");
   //  s1.display();

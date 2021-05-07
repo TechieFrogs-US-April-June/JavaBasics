@@ -1,3 +1,5 @@
+package src.Assignments;
+
 import java.util.Scanner;
 
 

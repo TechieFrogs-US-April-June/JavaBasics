@@ -1,3 +1,5 @@
+package src.Assignments;
+
 public class FullPyramidUsingNumbers {
     public static void main(String[] args) {
         int num = 0;

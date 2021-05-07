@@ -37,7 +37,9 @@ public class ConstructorPractice2 {
       // ConstructorPractice2 cd = new ConstructorPractice2(); //output : I am in the Constructor 
         ConstructorPractice2 cd1 = new ConstructorPractice2("Hello"); 
         ConstructorPractice2 c = new ConstructorPractice2(4,5);  // both Constructor will be executed
-        
+        System.out.println(cd1);
+        System.out.println(c);
+       
     }
     
 }

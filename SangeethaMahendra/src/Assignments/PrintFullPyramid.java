@@ -1,4 +1,4 @@
-
+package src.Assignments;
 
 public class PrintFullPyramid {
     public static void main(String[] args) {

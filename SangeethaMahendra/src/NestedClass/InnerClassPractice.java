@@ -1,3 +1,5 @@
+package src.NestedClass;
+
 
 class OuterClass // Outerclass
 {   

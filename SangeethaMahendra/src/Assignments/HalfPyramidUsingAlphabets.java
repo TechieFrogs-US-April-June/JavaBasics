@@ -1,3 +1,5 @@
+package src.Assignments;
+
 public class HalfPyramidUsingAlphabets {
     public static void main(String[] args) 
     {

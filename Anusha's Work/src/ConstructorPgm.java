@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class ConstructorPgm {
-    private static final String ID = 0;
+    private static final int ID = 0;
     private static int i,j,i1;
     private static String j1;
     int a,b,x,y,Sum,Sub,Mul,Div,Mod;
