@@ -1,5 +1,4 @@
 
-
 class PrimeNumberExample{
     public static void main(String[] args){
 
