@@ -16,7 +16,7 @@ class Circle1 {
         return Math.PI * this.radius * this.radius;
     }
 
-    @Override
+   @Override
     public String toString() {
         return "Circle1{" +
                 "radius=" + radius +
@@ -73,5 +73,8 @@ public class TestCylinder {
         Cylinder cyl = new Cylinder(5.2, 9, "red");
         System.out.println("Volume of cylinder: "+cyl.getVolume());
         System.out.println("Area of circle: "+cyl.getArea());
+        Circle1 cir = new Circle1(6);
+        System.out.println(cyl);
+        System.out.println(cir);
     }
 }
