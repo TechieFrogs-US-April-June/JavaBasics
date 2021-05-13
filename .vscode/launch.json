@@ -6,13 +6,7 @@
     "configurations": [
         {
             "type": "java",
-<<<<<<< HEAD
-            "name": "Launch FullPyramidUsingNumbers",
-            "request": "launch",
-            "mainClass": "FullPyramidUsingNumbers",
-            "projectName": "JavaBasics_9d668620"
-=======
-<<<<<<< HEAD
+
             "name": "Launch InvertedHalfPyramidNumbers",
             "request": "launch",
             "mainClass": "InvertedHalfPyramidNumbers",

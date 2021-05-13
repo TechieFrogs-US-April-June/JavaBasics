@@ -2,6 +2,8 @@ package src.Assignments;
 
 import java.util.Scanner;
 
+//Q1:	Java Program to Add Two Integers
+
 public class AddTwoInteger {
     //static variable
    static int NUM1 = 200;
