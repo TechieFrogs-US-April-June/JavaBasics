@@ -20,7 +20,7 @@ public class PrintFullPyramid {
         }
 
         // INVERTED FULL PYRAMID *
-        
+        System.out.println("\n");
         int r = 5;
     
         for (int i1 = r; i1 >= 1; --i1) { 

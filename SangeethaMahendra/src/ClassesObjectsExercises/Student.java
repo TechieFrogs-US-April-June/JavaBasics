@@ -11,7 +11,7 @@ public class Student {
   String Address;
 
 
-  //2. Assign and print the roll number, phone number and address of two students having names "Sam" and "John" respectively by creating two objects of class 'Student'.
+  //Q2. Assign and print the roll number, phone number and address of two students having names "Sam" and "John" respectively by creating two objects of class 'Student'.
   //Other way 
  /* void d(String name,int roll_no, long phoneNumber, String Address){
       this.name =name;
@@ -36,7 +36,7 @@ void display(){
         stuObj.phoneNumber = 765894302;
         stuObj.Address ="2,Bond park Dr";
 
-//2. Assign and print the roll number, phone number and address of two students having names "Sam" and "John" respectively by creating two objects of class 'Student'.
+//Q2. Assign and print the roll number, phone number and address of two students having names "Sam" and "John" respectively by creating two objects of class 'Student'.
         Student studObj = new Student();
         studObj.name ="John";
         studObj.roll_no = 7;

@@ -1,5 +1,6 @@
 package src.Assignments;
 
+//Q5 : Check Whether an Alphabet is Vowel or Consonant
 public class AlphabetVowelsOrConsonants {
     public static void main(String[] args) 
     {
