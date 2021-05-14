@@ -1,5 +1,6 @@
 package src.Assignments;
 
+//Q2.	Java Program to Compute Quotient(/) and Remainder(%)
 public class ComputeQuotientAndRemainder {
 
     //Compute Quotient

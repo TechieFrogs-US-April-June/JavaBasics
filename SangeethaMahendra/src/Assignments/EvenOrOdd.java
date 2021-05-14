@@ -1,6 +1,6 @@
 package src.Assignments;
 
-
+//Q4: Check Whether a Number is Even or Odd
 
 public class EvenOrOdd {
     public static void main (String[] args)

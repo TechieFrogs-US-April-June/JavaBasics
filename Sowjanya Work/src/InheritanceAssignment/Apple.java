@@ -22,7 +22,11 @@ class Banana extends Apple {
     void show() {
         System.out.println("number of bananas: "+this.number_of_items);
         System.out.println("number of apples: "+getNumber_of_items());
+       // super.getNumber_of_items();
     }
+
+
+
 
     public static void main(String[] args) {
         Apple apple = new Apple(100);

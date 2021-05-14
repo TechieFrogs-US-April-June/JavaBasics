@@ -1,5 +1,7 @@
 package src.Assignments;
 
+//Q7:  Check Whether a Character is Alphabet or Not
+
 public class CheckWhetherACharacterIsAlphabetOrNot {
     public static void main(String[] args) {
        
