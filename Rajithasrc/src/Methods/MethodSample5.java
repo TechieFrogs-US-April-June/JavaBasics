@@ -124,6 +124,18 @@ public class MethodSample5 {
         System.out.println("Balance after depositing to SBI account  " +sbiobj.getA().getBalance());
         sbiobj.getA().addInterest();
         System.out.println("Balance after interest SBI account  " +sbiobj.getA().getBalance());
+      
+       ICICI iciciobj = new ICICI();
+       iciciobj.setA(accobj);
+       iciciobj.setC(cusobj);
+
+        iciciobj.getA().withdraw(200.00);
+        System.out.println("Balance after withdrawl from ICICI account  " +iciciobj.getA().getBalance());
+        iciciobj.getA().deposit(40000.00);
+        System.out.println("Balance after depositing to ICICI account  " +iciciobj.getA().getBalance());
+        iciciobj.getA().addInterest();
+        System.out.println("Balance after interest ICICI account  " +iciciobj.getA().getBalance());
+
 
     
 }
