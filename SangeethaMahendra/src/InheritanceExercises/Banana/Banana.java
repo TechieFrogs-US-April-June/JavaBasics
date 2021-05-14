@@ -18,7 +18,7 @@ public class Banana extends Apple{
     }
 
     public static void main(String[] args) {
-        Apple appleoObj= new Apple(100);
+        //Apple appleoObj= new Apple(100);
         Banana bananaObj = new Banana(100, 50);
         bananaObj.show();
     }

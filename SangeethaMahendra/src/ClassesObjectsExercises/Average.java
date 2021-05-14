@@ -2,7 +2,7 @@ package src.ClassesObjectsExercises;
 
 import java.util.Scanner;
 
-//Print the average of three numbers entered by user by creating a class named 'Average' having a method to calculate and print the average.
+//Q8: Print the average of three numbers entered by user by creating a class named 'Average' having a method to calculate and print the average.
 //Syntax : Add all given number/count of the numver = Average number
 public class Average {
         double num1,num2,num3;
