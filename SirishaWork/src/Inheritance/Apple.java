@@ -11,7 +11,6 @@ public class Apple {
         return number_of_items;
     }
 }
-
 class Banana extends Apple {
     private int number_of_items;
 
