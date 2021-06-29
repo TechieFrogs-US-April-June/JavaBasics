@@ -18,18 +18,21 @@ class Customer{
 
 }
 class Account{
-    private int accountno;
+    private long accountno;
     private double balance;
-	public int getAccountno() {
+    private double interest;
+
+
+
+    public long getAccountno() {
         return accountno;
     }
 
-    public void setAccountno(int accountno) {
+    public void setAccountno(long accountno) {
         this.accountno = accountno;
     }
 
-    private double interest;
-
+    
 	public Account()
 	{
 		balance = 0;
@@ -66,18 +69,19 @@ class RBI{
     private Customer c;
     private Account a;
 
-    public Customer getC() {
-        return c;
-    }
-    public void setC(Customer c) {
-        this.c = c;
-    }
     public Account getA() {
         return a;
     }
     public void setA(Account a) {
         this.a = a;
     }
+    public Customer getC() {
+        return c;
+    }
+    public void setC(Customer c) {
+        this.c = c;
+    }
+    
     public double getInterestRate() { 
         return 4;
     }
@@ -106,7 +110,7 @@ public class MethodSample5 {
         cusobj.setPhoneno("+1-345-4335325");
 
         Account accobj = new Account(5000,.10);
-        accobj.setAccountno(435435453);
+        accobj.setAccountno(453433443);
         
         //accobj.withdraw(200);
 		//accobj.deposit(600);
