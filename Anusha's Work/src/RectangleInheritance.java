@@ -1,6 +1,5 @@
 class RectanglePgm{
     int length,breadth,area,perimeter;
-
     public RectanglePgm(int l, int b) {
         length=l;
         breadth=b;
@@ -21,10 +20,7 @@ class Square1 extends RectanglePgm{
         super(s,s);
 
     }
-
-
 }
-
 public class RectangleInheritance {
     public static void main(String[] args) {
         RectanglePgm rectangleObj=new RectanglePgm(10,10);

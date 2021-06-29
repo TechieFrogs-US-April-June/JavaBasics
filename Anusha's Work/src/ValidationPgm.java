@@ -10,7 +10,6 @@ public class ValidationPgm {
     public static void oneInputValidationPgm() {
         int a = 0;
         Scanner sc = new Scanner(System.in);
-        // System.out.print("Enter any number:");
         do {
             System.out.print("Enter any valid number:");
             //sc.next();

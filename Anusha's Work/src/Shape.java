@@ -27,7 +27,7 @@
 
 
 
-public class Shape  {
+public class Shape{
     public static void main(String[] args) {
         Square sqObj=new Square();
         sqObj.printShape();
