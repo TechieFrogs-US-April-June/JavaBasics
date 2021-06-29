@@ -7,6 +7,7 @@ public class StringProg6 {
         String str2 = "bcd";
         String str3 = new String("abc");
         String str4 = "abc";
+        String str5 = new String("name");
 
         if(str1.equals(str2))
             System.out.println("is str1 equals(str2) ? true");
@@ -21,8 +22,13 @@ public class StringProg6 {
             System.out.println("is str1 equals(str3) ? false");
 
         if(str3.equals(str4))
-            System.out.println("is str3 equals(str4? true");
+            System.out.println("is str3 equals(str4) ? true");
         else
             System.out.println("is str3 equals(str4) ? false");
+
+        if(str3.equals(str5))
+            System.out.println("is str3 equals(str5) ? true");
+        else
+            System.out.println("is str3 equals(str5) ? false");
     }
 }
