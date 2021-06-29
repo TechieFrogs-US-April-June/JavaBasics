@@ -14,7 +14,7 @@ public class Test extends Shape {
     //    s.drawing();
     //    s.fill();
 
-    Test test = new Test();
+   // Test test = new Test();
         
     }
 

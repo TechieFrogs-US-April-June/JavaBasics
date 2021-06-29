@@ -18,12 +18,12 @@ public class Area {
         getArea(); // called getArea method inside the setDim method
     }
 
-    // this method can not all from setDim methods parameter, so declare instance
+    // this method can not call from setDim methods parameter, so declare instance
     // variable and intialize setDim methods parameter and call here in this method
     void getArea() {
 
         area = l * b; // method named 'Area' which returns the area of the rectangle
-        System.out.println(" Print the area of the rectangle in the Method : " + area);
+        System.out.println(" Print the area of the rectangle in the  getArea Method : " + area);
         // return area;
     }
 
@@ -34,11 +34,12 @@ public class Area {
     Area(int len, int bre) {
         this.l = len;
         this.b = bre;
+        //System.out.println(" Print the area of the rectangle in the constructor : " + area);
     }
      
      void returnArea(){
          area = l * b;
-         System.out.println(" Print the area of the rectangle in the Constructor : " + area);
+         System.out.println(" Print the area of the rectangle in the return Area : " + area);
      }
 
     public static void main(String[] args) {

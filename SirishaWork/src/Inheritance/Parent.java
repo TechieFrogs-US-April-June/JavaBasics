@@ -1,10 +1,10 @@
 package SirishaWork.src.Inheritance;
 
 public class Parent {
-  private void p() {
-     System.out.println("This is parent class");
+      private void p() {
+         System.out.println("This is parent class");
+     }
  }
-}
     class child  extends Parent{
         void a(){
             System.out.println("This is child class");

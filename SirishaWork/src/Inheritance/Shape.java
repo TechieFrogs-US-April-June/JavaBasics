@@ -5,7 +5,6 @@ public class Shape {
         System.out.println("This is shape");
     }
 }
-
 //Rectangle is a subclass of shape class
 class Rectangle1 extends Shape {
     void print(){

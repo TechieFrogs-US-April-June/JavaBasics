@@ -1,4 +1,4 @@
-package ClassesAndObjects;
+package SirishaWork.src.ClassesAndObjects;
 //main class
 public class GFG {
     //main function
@@ -6,19 +6,19 @@ public class GFG {
     {
 
         // First Complex number
-        ClassesAndObjects.Complex C1 = new ClassesAndObjects.Complex(3, 2);
+        Complex C1 = new Complex(3, 2);
 
         // printing first complex number
         C1.printComplexNumber();
 
         // Second Complex number
-        ClassesAndObjects.Complex C2 = new ClassesAndObjects.Complex(9, 5);
+        Complex C2 = new Complex(9, 5);
 
         // printing second complex number
         C2.printComplexNumber();
 
         // for Storing the sum
-        ClassesAndObjects.Complex C3 = new ClassesAndObjects.Complex();
+        Complex C3 = new Complex();
 
         // calling addComp() method
         C3 = C3.addComp(C1, C2);

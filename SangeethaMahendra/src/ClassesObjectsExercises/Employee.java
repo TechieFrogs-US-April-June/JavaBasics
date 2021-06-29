@@ -1,8 +1,7 @@
 package src.ClassesObjectsExercises;
 
+//Q10 
 import java.util.Scanner;
-
-import src.InheritanceExercises.AandB.A;
 
 public class Employee {
 
@@ -56,7 +55,7 @@ public class Employee {
         empObj2.display();
         empObj3.display();
          
-        
+        sc.close();
 
         
     }
